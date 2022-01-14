@@ -1,6 +1,6 @@
 # Diabetes Prediction Using SVM
 
-I explore a diabetes prediction algorithm using a [Diabetes dataset](https://www.dropbox.com/s/uh7o7uyeghqkhoy/diabetes.csv?dl=0). Using a Support Vector Machine for my prediction algorithm, I intend on predicting whether an individual has diabetes or not based on . 
+I explore a diabetes prediction algorithm using a [Diabetes dataset](https://www.dropbox.com/s/uh7o7uyeghqkhoy/diabetes.csv?dl=0). Using a Support Vector Machine for my prediction algorithm, I intend on predicting whether an individual has diabetes or not based on certain attributes provided within the dataset headers. 
 > This table is taken from [kaggle](https://www.kaggle.com/) and contains data specifying diabetes data from a particular group, which may create difficulty in generalization.
 
 >> "This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage."
