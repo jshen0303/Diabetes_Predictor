@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction Model</title>
+</head>
+<body>
+    <h1>Predict Diabetes</h1>
+    <form method="post",action="/">
+                <input class="form-input" type="number" name="pregnancies" placeholder="Number of Pregnancies"><br>
+                <input class="form-input" type="number" name="glucose" placeholder="Glucose(mg/dL)"><br>
+                <input class="form-input" type="number" name="bloodpressure" placeholder="Blood Pressure(mmHg)"><br>
+                <input class="form-input" type="number" name="skinthickness" placeholder="Skin Thickness(mm)"><br>
+                <input class="form-input" type="number" name="insulin" placeholder="Insulin Level(IU/mL)"><br>
+                <input class="form-input" type="number" name="bmi" placeholder="Body Mass Index(kg/m²)"><br>
+                <input class="form-input" type="float" name="dpf" placeholder="Diabetes Pedigree Function"><br>
+                <input class="form-input" type="number" name="age" placeholder="Age(years)"><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+    {% if db_pred %}
+        {{db_pred}}
+    {% endif %}
+
+
+</body>
+</html>
