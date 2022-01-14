@@ -26,3 +26,8 @@ For the purposes of this notebook, I will use a subset of the Diabetes dataset p
 2. Preprocess data
 3. Train - Test data split
 4. Feed a SVM model after determining data subset to be satisfactory
+
+## App Loading
+
+1. Run app.py
+2. Click on local host
