@@ -30,4 +30,4 @@ For the purposes of this notebook, I will use a subset of the Diabetes dataset p
 ## App Loading
 
 1. Run app.py
-2. Click on local host
+2. Run on local host
